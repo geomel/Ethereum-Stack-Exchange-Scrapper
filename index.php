@@ -1,3 +1,13 @@
+<?php
+//initilize the page
+require_once("inc/init.php");
+$page_title = "StackExchange Scrapper";
+$page_css[] = "your_style.css";
+$no_main_header = true;
+$page_body_prop = array("id"=>"login", "class"=>"animated fadeInDown");
+include("inc/header.php");
+
+?>
 <!-- ==========================CONTENT STARTS HERE ========================== -->
 <!-- MAIN PANEL -->
 <div id="main" role="main">
